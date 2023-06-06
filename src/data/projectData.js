@@ -15,7 +15,7 @@ const projectsData = [
             "A modern and user-friendly e-commerce app that revolutionizes the way you shop online.",
         technologies: ["JavaScript", "HTML/CSS"],
         imageUrl: process.env.PUBLIC_URL + "/images/e-commerce.jpg",
-        website: "https://example.com/project2",
+        website: "https://client-pi-orcin.vercel.app/",
     },
     {
         id: 3,
