@@ -24,7 +24,7 @@ const projectsData = [
             "A real estate app that showcases houses and allows you to view their plans. Browse through a wide selection of properties, explore detailed information about each house, and visualize their floor plans.",
         technologies: ["React", "CSS"],
         imageUrl: process.env.PUBLIC_URL + "/images/realEstate.jpg",
-        website: "https://example.com/project2",
+        website: "https://real-estate-f3f47.web.app/",
     },
     // Add more projects as needed
 ];
