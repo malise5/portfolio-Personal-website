@@ -3,7 +3,7 @@ import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const About = () => {
     return (
-        <section className="bg-gray-900 text-white py-16">
+        <section className="bg-gray-900 text-white py-16 mt-16">
             <div className="max-w-4xl mx-auto px-4">
                 <div className="flex flex-col md:flex-row">
                     <div className="md:w-[20%] mr-10">
@@ -70,27 +70,24 @@ const About = () => {
                             Python/Flask. I am a tenacious user advocate and I
                             derive great satisfaction from being able to build
                             websites, analyze data, and develop apps that
-                            exhibit good UX design and fulfill a need.
+                            exhibit good Software design and fulfill a need.
                         </p>
                         <p className="text-lg mb-4">
-                            In 2022, after years of feeling stuck in my
-                            professional life, it wasn't until I discovered the
-                            Odin-Project program that I truly felt I had found
-                            my way forward. I made a career change and obtained
-                            my skills in Software Engineering from Freecodecamp.
-                            During that time, it became clear to me that while I
-                            loved helping to create better user experiences, I
-                            wanted to contribute from the engineering side as
-                            well. I completed the development classes and took
-                            on freelance projects.
+                            In 2022, I broke free from professional stagnation
+                            and discovered my passion for Software Engineering
+                            through the Odin-Project and Freecodecamp.
+                            Transitioning from creating user experiences to
+                            engineering solutions, I completed development
+                            classes and tackled programme projects.
                         </p>
                         <p className="text-lg mb-4">
-                            I'm excited about finding a position that will allow
-                            me to solidify and expand on my skills and, ideally,
-                            make contributions that can have a positive impact
-                            on people's lives. If you have any questions or
-                            would like to connect, please feel free to reach out
-                            to me. I look forward to hearing from you!
+                            Now, I seek a position to amplify my impact, bring
+                            dreams to life, and contribute to your team's
+                            success. Let's connect and create captivating,
+                            inspiring, and transformative experiences together.
+                            If you have any questions or would like to connect,
+                            please feel free to reach out to me. I look forward
+                            to hearing from you!
                         </p>
                     </div>
                 </div>

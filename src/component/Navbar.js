@@ -77,15 +77,17 @@ const Navbar = () => {
     return (
         <div className="bg-gray-900 text-white fixed top-0 left-0 w-full z-50">
             <div className="max-w-4xl mx-auto px-4 flex justify-between items-center h-24">
-                <h1 className="w-full text-3xl font-bold text-orange-500">
-                    Logo
-                </h1>
+                <img
+                    src="/images/logo2.jpg"
+                    alt="logo"
+                    className="w-12 h-12 rounded-lg"
+                />
                 <div className="hidden md:flex uppercase">
                     <Link to="/about" className="p-4">
                         About
                     </Link>
-                    <Link to="/portfolio" className="p-4">
-                        Portfolio
+                    <Link to="/projects" className="p-4">
+                        Projects
                     </Link>
                     <Link to="/resume" className="p-4">
                         Resume
@@ -101,7 +103,7 @@ const Navbar = () => {
                 <div
                     className={
                         !nav
-                            ? "bg-gray-900 lg:hidden fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+                            ? " lg:hidden fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
                             : "fixed left-[-100%]"
                     }
                 >

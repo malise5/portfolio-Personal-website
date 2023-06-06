@@ -6,7 +6,7 @@ const Resume = () => {
         resumeData;
 
     return (
-        <div className="py-8 px-4">
+        <div className="py-20 px-4 mt-8">
             <div className="max-w-4xl mx-auto">
                 <div className="bg-white shadow-md rounded-lg p-8">
                     <div className="mb-8">
