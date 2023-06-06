@@ -83,7 +83,7 @@ const Navbar = () => {
                     className="w-12 h-12 rounded-lg"
                 />
                 <div className="hidden md:flex uppercase">
-                    <Link to="/about" className="p-4">
+                    <Link to="/" className="p-4">
                         About
                     </Link>
                     <Link to="/projects" className="p-4">
