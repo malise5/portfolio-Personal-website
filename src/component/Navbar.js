@@ -103,14 +103,14 @@ const Navbar = () => {
                 <div
                     className={
                         !nav
-                            ? " lg:hidden fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+                            ? " md:hidden fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
                             : " fixed left-[-100%]"
                     }
                 >
                     <h1 className=" w-full text-3xl m-4 pl-4 font-bold text-orange-600">
                         Logo
                     </h1>
-                    <div className="sm:hidden flex flex-col p-4 uppercase">
+                    <div className=" flex flex-col p-4 uppercase">
                         <Link
                             onClick={handleNav}
                             to="/"
