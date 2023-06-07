@@ -52,8 +52,11 @@ const resumeData = {
             location: "Moyale",
             startDate: "Nov 2022",
             endDate: "Dec 2022",
-            description:
-                "Worked with community leaders and local organizations to identify needs and opportunities for improvement in the community...",
+            description: [
+                "Worked with community leaders and local organizations to identify needs and opportunities for improvement in the community, Led and participated in a range of initiatives aimed at promoting peace and stability.",
+                "Provided guidance and support to young people in the community, helping them to develop their skills and to prepare for the future.",
+                "Contributed to the overall development of the community through the initiation and implementation of programs and initiatives that aimed at improving the lives of people in the area.",
+            ],
         },
         // Add more leadership experience objects as needed
     ],

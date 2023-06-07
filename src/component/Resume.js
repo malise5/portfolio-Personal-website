@@ -66,7 +66,12 @@ const Resume = () => {
                                 <div className="text-gray-600 text-sm mb-2">
                                     {exp.startDate} - {exp.endDate}
                                 </div>
-                                <p className="mb-2">{exp.description}</p>
+                                {/* <p className="mb-2">{exp.description}</p> */}
+                                <ul className="list-disc list-inside ml-4">
+                                    {exp.description.map((skill, index) => (
+                                        <li key={index}>{skill}</li>
+                                    ))}
+                                </ul>
                             </div>
                         ))}
                     </div>
