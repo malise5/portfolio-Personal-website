@@ -111,10 +111,7 @@ const Navbar = () => {
                         Logo
                     </h1>
                     <div className="flex flex-col p-4 uppercase">
-                        <Link
-                            to="/about"
-                            className="p-4 border-b border-gray-600"
-                        >
+                        <Link to="/" className="p-4 border-b border-gray-600">
                             About
                         </Link>
                         <Link
