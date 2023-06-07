@@ -9,7 +9,16 @@ const projectsData = [
         website: "https://ireport-zccc0p2gg-mary-wanyama.vercel.app/",
     },
     {
-        id: 2,
+        id: 3,
+        title: "Book Store",
+        description:
+            "Welcome to our Book App! Our website is a dedicated platform for book enthusiasts, offering a wide range of features and resources to enhance your reading experience.",
+        technologies: ["React/CSS", "Rails"],
+        imageUrl: process.env.PUBLIC_URL + "/images/books.jpg",
+        website: "https://books-flax-delta.vercel.app/",
+    },
+    {
+        id: 3,
         title: "Glam Couture",
         description:
             "A modern and user-friendly e-commerce app that revolutionizes the way you shop online.",
@@ -18,7 +27,7 @@ const projectsData = [
         website: "https://client-pi-orcin.vercel.app/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Real Estate App",
         description:
             "A real estate app that showcases houses and allows you to view their plans. Browse through a wide selection of properties, explore detailed information about each house, and visualize their floor plans.",
