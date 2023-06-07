@@ -104,7 +104,7 @@ const Navbar = () => {
                     className={
                         !nav
                             ? " lg:hidden fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
-                            : "fixed left-[-100%]"
+                            : "sm:hidden fixed left-[-100%]"
                     }
                 >
                     <h1 className=" w-full text-3xl m-4 pl-4 font-bold text-orange-600">
@@ -118,10 +118,10 @@ const Navbar = () => {
                             About
                         </Link>
                         <Link
-                            to="/portfolio"
+                            to="/Projects"
                             className="p-4 border-b border-gray-600"
                         >
-                            Portfolio
+                            Projects
                         </Link>
                         <Link to="/resume" className="p-4">
                             Resume
