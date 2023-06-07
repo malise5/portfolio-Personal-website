@@ -3,7 +3,7 @@ import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const About = () => {
     return (
-        <section className="bg-gray-900 text-white py-16 mt-16">
+        <section className="bg-gray-900 text-white py-20 mt-16">
             <div className="max-w-4xl mx-auto px-4">
                 <div className="flex flex-col md:flex-row">
                     <div className="md:w-[20%] mr-10">
@@ -62,7 +62,7 @@ const About = () => {
                         <h1 className="text-4xl font-bold mb-4">
                             Halkano Malise
                         </h1>
-                        <p className="text-lg mb-4">
+                        <p className="text-lg mb-6">
                             I am an aspiring Data Scientist, Web
                             Developer/Software Engineer, and a self taught Full
                             Stack Web Development program. My skillset includes
